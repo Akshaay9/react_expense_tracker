@@ -202,3 +202,18 @@ padding: 8px;
   border-bottom: 8px solid rgb(224, 56, 56);
   /* background-color: rgb(117, 5, 5); */
 }
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  body{
+    overflow: scroll;
+  }
+  .incomeContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+.expressTrackerContainer{
+  width: 90%;
+  height: 90vh;
+}}
